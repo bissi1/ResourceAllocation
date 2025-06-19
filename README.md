@@ -8,4 +8,4 @@ In the **Data** folder, there are 2400 spreadsheets denoting the 1200 sampled sc
 
 The filenames contain six pandemic instances (`c1`, `c2`, `c3`, `c4`, `c5`, `c6` correspond to 1918, 1928, 1957, 1968, 2009, 2020, respectively – see Table S2), two initial cases (`ic1` and `ic2` refer to Random and Random-weighted, respectively – see Table S3), and a counter index (from `000` to `099`).
 
-An example GAMS code is provided in the file `example_code.gms'.
+An example GAMS code is provided in the file `example_code.gms`.
