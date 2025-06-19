@@ -7,3 +7,5 @@ Please refer to the article *"Release Immediately or Sequentially? Strategies fo
 In the **Data** folder, there are 2400 spreadsheets denoting the 1200 sampled scenarios considered in the numerical experiments of the article (there are two files for each scenario – the population $S_{c,t}^\omega$ and the benefit $B_{c,t}^\omega$). Within these files, the columns `"c"` correspond to the 254 counties of Texas while the rows `"t"` correspond to the 15 months. The filenames explain whether these are the benefits (e.g., `infectious-001_c4_ic2_benefit_monthly`) or the populations (e.g., `infectious-001_c4_ic2_population_monthly`).
 
 The filenames contain six pandemic instances (`c1`, `c2`, `c3`, `c4`, `c5`, `c6` correspond to 1918, 1928, 1957, 1968, 2009, 2020, respectively – see Table S2), two initial cases (`ic1` and `ic2` refer to Random and Random-weighted, respectively – see Table S3), and a counter index (from `000` to `099`).
+
+An example GAMS code is provided in the file `example_code.gms'.
